@@ -1,0 +1,45 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/arielrodriguez/Development/proyectos2/agenticsoftwarefactory/server/scripts/factory-hook.sh"
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/arielrodriguez/Development/proyectos2/agenticsoftwarefactory/server/scripts/factory-hook.sh"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/arielrodriguez/Development/proyectos2/agenticsoftwarefactory/server/scripts/factory-hook.sh"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write|MultiEdit|Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/arielrodriguez/Development/proyectos2/agenticsoftwarefactory/server/scripts/factory-hook.sh"
+          }
+        ]
+      }
+    ]
+  }
+}

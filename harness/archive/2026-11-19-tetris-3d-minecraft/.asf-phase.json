@@ -1,0 +1,24 @@
+{
+  "backlog": {
+    "title": "Tetris 3d Minecraft",
+    "checkedAtStart": false,
+    "recordedAt": "2026-11-19T23:43:28.882Z",
+    "runId": "run-1795131808873-240"
+  },
+  "completed": [
+    "plan",
+    "implement",
+    "review",
+    "archive"
+  ],
+  "review": {
+    "verdict": "pass",
+    "stale": false,
+    "file": "harness/tetris-3d-minecraft/review.md",
+    "mtimeMs": 1795133838974.4075,
+    "statement": "Verdict: PASS. Se corrigió el bloqueante de la ronda anterior (la caída suave teletransportaba la pieza; §2.1 de la 1.ª revisión). Comprobé que la prueba de regresión falla sin la corrección y pasa con ella. También quedaron resueltos los …",
+    "checkedAt": "2026-11-20T00:17:38.907Z",
+    "runId": "run-1795133362349-242",
+    "approvedBy": null
+  }
+}
